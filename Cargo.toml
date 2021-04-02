@@ -1,0 +1,12 @@
+[package]
+edition = "2018"
+name = "atchteeteepea"
+version = "0.1.0"
+authors = ["Brian L. Troutwine <brian@troutwine.us>"]
+
+[dependencies]
+byte-unit = "4.0"
+ta = "0.4"
+lazy_static = "1.4"
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
